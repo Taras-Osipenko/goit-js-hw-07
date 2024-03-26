@@ -27,3 +27,20 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+const navItemEl = document.createElement("li");
+
+const elements = images.map((image) =>{
+  const imgEl = document.createElement("img");
+  imgEl.alt = image.alt;
+  imgEl.src = image.url;
+  return imgEl;
+  
+} )
+
+
+
+console.log(elements.forEach(image))
+
+
+
+
