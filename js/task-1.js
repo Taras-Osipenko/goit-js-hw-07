@@ -1,9 +1,16 @@
-const doc = document.querySelector("#categories")
+const listOfCategories = document.querySelectorAll("#categories > .item")
 
-console.log(doc)
 
-function numOfCategiries (Categorie) = {
-    
-}
+console.log("Number of categories:",listOfCategories.length)
 
-console.log("Number of categories:" )
+
+const listOfTitle = document.querySelectorAll("#categories  h2")
+
+const listOfElements = document.querySelectorAll("#categories  ul > li")
+
+console.log(listOfElements.length)
+
+console.log(listOfTitle)
+listOfTitle.forEach((h2)=> console.log(h2.textContent,
+    "Elements:",listOfElements.length))
+
