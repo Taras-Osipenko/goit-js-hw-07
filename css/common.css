@@ -11,4 +11,25 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 40px;
+
+}
+
+.gallery {
+
+  list-style: none;
+ 
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  flex-basis: auto;
+
+}
+.gallery img {
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  
 }
